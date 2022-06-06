@@ -1,0 +1,19 @@
+.Nav {
+  display: flex;
+  place-items: center;
+  width: 100%;
+  padding-top: 0px;
+  background-color: red;
+}
+
+a.Nav_button {
+  width: 20%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.7vmax;
+  padding: 5px 1% 5px 1%;
+}
+
+
+
