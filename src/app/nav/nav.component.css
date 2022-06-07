@@ -3,7 +3,8 @@
   place-items: center;
   width: 100%;
   padding-top: 0px;
-  background-color: #FF9A2B;
+  background-color: #FB8B2A;
+  border-bottom: 2px solid #1f0f10da;
 }
 
 a.Nav_button {
@@ -20,7 +21,7 @@ a.Nav_button {
   transition: background-color 1s;
 }
 a.Nav_button:visited, a.Nav_button:link {
-  decoration: none;
+  text-decoration: none;
   color: #130A0A;
 }
 

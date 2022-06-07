@@ -49,30 +49,30 @@
                 if(!(c.match(mailformat))){
                   temp = 5;
                 }
-    
+
         switch (temp) {
           case 1:{
-            window.alert("Proszę Wypełnić Wszystkie Pola!");
+            window.alert("Proszę wypełnić wszystkie pola!");
             return false;}
           case 2:{
-            window.alert("Imię Musi Mieć Conajmniej 3 Znaki!");
+            window.alert("Imię musi mieć conajmniej 3 znaki!");
             return false;}
           case 3:{
-            window.alert("Imię Musi Zaczynać Się Od Dużej Litery!");
+            window.alert("Imię musi zaczynać się od dużej litery!");
             return false;}
           case 4:{
-            window.alert("Nazwisko Musi Zaczynać Się Od Dużej Litery!");
+            window.alert("Nazwisko musi zaczynać się od dużej litery!");
             return false;}
           case 5:{
-            window.alert("Niepoprawny Format E-mail!");
+            window.alert("Niepoprawny format E-mail!");
             return false;}
           case 0:{
             const user = new User(a,b,c,d);
             console.log(user);
             // tutaj dać zwracanie informacji user-a do restAPI
-            window.alert('Dziękujemy Za Zapisanie Się Do Newslettera!')
+            window.alert('Dziękujemy za zapisanie się do Newslettera!')
             return true;}
-        }       
+        }
       };
       </script>
 
