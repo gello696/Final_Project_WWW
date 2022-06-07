@@ -13,3 +13,16 @@ export class MainComponent implements OnInit {
   }
 
 }
+
+export class User {
+  name: string;
+  lastName: string;
+  email: string;
+  tag: string;
+  constructor(name: string, lastName: string, email: string, tag: string) {
+    this.name = name;
+    this.lastName = lastName;
+    this.email = email;
+    this.tag = tag;
+  }
+}
