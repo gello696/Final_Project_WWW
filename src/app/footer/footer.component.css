@@ -7,13 +7,9 @@
     background: #fcfcfc;
   }
   footer{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #070404;
+    background-color: #1F0F10;
     height: auto;
-    width: 100vw;
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
     padding-top: 10px;
     color: #fff;
@@ -48,7 +44,7 @@
     margin: 0 10px;
   }
   .socials img{
-    border: 2px solid white; 
+    border: 2px solid white;
     border-radius: 50%;
   }
   .socials a{
@@ -57,7 +53,7 @@
   }
   .footer-bottom{
     background: #000;
-    width: 100vw;
+    width: 100%;
     padding: 0px 0;
     text-align: center;
   }
@@ -71,4 +67,3 @@
     opacity: .4;
     font-weight: 200;
   }
-  
