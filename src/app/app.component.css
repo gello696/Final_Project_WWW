@@ -4,7 +4,18 @@
   z-index: 2;
 }
 .elem {
+  padding-top: 115px;
   display: flex;
-}
 
+}
+app-aside {
+  width: 30%;
+}
+app-main {
+  width: 70%;
+}
+/* app-aside {
+  width: 30%;
+  font-family: 'Montserrat', sans-serif;
+} */
 
