@@ -9,13 +9,28 @@
 
 }
 app-aside {
-  width: 30%;
+  width: 20%;
 }
 app-main {
-  width: 70%;
+  width: 80%;
 }
-/* app-aside {
-  width: 30%;
+
+.About {
+  width: 100%;
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
-} */
+  padding-bottom: 20px;
+  color: #1F0F10;
+  background-image: linear-gradient(#FF9A2B, #E83F29);
+  border-bottom: 1px solid black;
+}
+
+.About h1 {
+  margin-top: 0px;
+  font-size: 2.5vmax;
+}
+
+.About span {
+  font-size: 1.7vmax;
+}
 
