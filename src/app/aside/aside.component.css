@@ -7,9 +7,8 @@
 .section{
   display: inline-block;
   color: #FFFAEB;
-  font-size: 2vmax;
+  font-size: 1.2vmax;
   width: 100%;
-  border: 5px #D03728 solid;
   background-image: linear-gradient(#78231C, #1F0F10);
 }
 
@@ -39,7 +38,7 @@
   }
   
   .sec_2_row {
-    background-color: #1f0f10;
+    background-image: linear-gradient(#78231C, #1F0F10);
     width: 98%;
     margin-right: auto;
     margin-left: auto;
@@ -82,5 +81,5 @@
   .sec_2_title {
     margin: 0px;
     color: #FFFAEB;
-    font-size: 2.8vmax;
+    font-size: 1.5vmax;
   }
